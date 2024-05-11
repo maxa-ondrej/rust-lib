@@ -10,11 +10,15 @@ rust-lib description
 
 ### Installation
 
-**Latest version:** 0.0.1 <!-- x-release-please-version -->
-
 To use `rust-lib`, add the following to your Cargo.toml:
+
+<!-- x-release-please-start-version -->
 
 ```toml
 [dependencies]
-rust-lib = { git = "https://github.com/majksa-dev/rust-lib" }
+rust-lib = { tag = "v0.0.1", git = "https://github.com/majksa-dev/rust-lib" }
 ```
+
+or simply run `cargo add --git https://github.com/majksa-dev/rust-lib --tag v0.0.1`
+
+<!-- x-release-please-end -->

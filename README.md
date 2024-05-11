@@ -2,6 +2,8 @@
 
 rust-lib description
 
+[Crate API Documentation](https://majksa-dev.github.io/rust-lib/)
+
 **Table of contents**
 
 - [Installation](#installation)

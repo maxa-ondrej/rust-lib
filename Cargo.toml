@@ -7,10 +7,13 @@ edition = "2021"
 
 [dependencies]
 essentials = { tag = "0.3.7", git = "https://github.com/majksa-dev/rust-essentials" }
-chrono = { version = "0.4.38", default-features = false, features = ["clock", "serde"] }
-derive_more = "0.99.18"
-futures-util = { version = "0.3.30", default-features = false, features = ["std"] }
+chrono = { version = "0.4.38", default-features = false, features = [
+    "clock",
+    "serde",
+] }
+derive_more = { version = "1.0.0", features = ["std"] }
+futures-util = "0.3.30"
 rand = "0.8.5"
 slab = "0.4.9"
-serde = "1.0.203"
+serde = "1.0.208"
 serde_json = "1.0.125"

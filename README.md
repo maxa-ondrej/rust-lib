@@ -16,9 +16,9 @@ To use `rust-lib`, add the following to your Cargo.toml:
 
 ```toml
 [dependencies]
-rust-lib = { tag = "0.0.1", git = "https://github.com/majksa-dev/rust-lib" }
+rust-lib = { tag = "0.1.0", git = "https://github.com/majksa-dev/rust-lib" }
 ```
 
-or simply run `cargo add --git https://github.com/majksa-dev/rust-lib --tag 0.0.1`
+or simply run `cargo add --git https://github.com/majksa-dev/rust-lib --tag 0.1.0`
 
 <!-- x-release-please-end -->

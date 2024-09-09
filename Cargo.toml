@@ -15,5 +15,5 @@ derive_more = { version = "1.0.0", features = ["std"] }
 futures-util = "0.3.30"
 rand = "0.8.5"
 slab = "0.4.9"
-serde = "1.0.208"
+serde = "1.0.210"
 serde_json = "1.0.125"

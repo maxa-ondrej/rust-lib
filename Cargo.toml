@@ -12,7 +12,7 @@ chrono = { version = "0.4.38", default-features = false, features = [
     "serde",
 ] }
 derive_more = { version = "1.0.0", features = ["std"] }
-futures-util = "0.3.30"
+futures-util = "0.3.31"
 rand = "0.8.5"
 slab = "0.4.9"
 serde = "1.0.208"
